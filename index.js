@@ -92,7 +92,7 @@ app.post('/send-email-eco2app', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Re:" + initializedDataSource  +" Eco4 Grant enquiry- Further Info Requested"
@@ -152,7 +152,7 @@ app.post('/awaiting-boiler-pictures', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Re:" + initializedDataSource  +" Eco4 Grant enquiry- Further Info Requested"
@@ -201,7 +201,7 @@ app.post('/rejected-out-of-criteria', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
 
@@ -252,7 +252,7 @@ app.post('/rejected-boiler-issues', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Eco4 Grant enquiry through " + initializedDataSource;
@@ -301,7 +301,7 @@ app.post('/rejected-income-too-high', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Eco4 Grant enquiry through " + initializedDataSource;
@@ -352,7 +352,7 @@ app.post('/rejected-epc-issues', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Eco4 Grant enquiry through " + initializedDataSource;
@@ -401,7 +401,7 @@ app.post('/rejected-client-cancelled', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Eco4 Grant enquiry through " + initializedDataSource;
@@ -451,7 +451,7 @@ app.post('/rejected-on-gas-safe', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Eco4 Grant enquiry through " + initializedDataSource;
@@ -509,7 +509,7 @@ app.post('/new-lead', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     
@@ -571,7 +571,7 @@ app.post('/no-benefits', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Re:" + initializedDataSource  +" Eco4 Grant enquiry- Further Info Requested"
@@ -631,7 +631,7 @@ app.post('/potential-fix', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Re:" + initializedDataSource  +" Eco4 Grant enquiry- Further Info Requested";
@@ -691,7 +691,7 @@ app.post('/epc-notlisted-nobenefits', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
 
@@ -752,7 +752,7 @@ app.post('/awaiting-documents-homeowner', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Re:" + initializedDataSource  +" Eco4 Grant enquiry- Further Info Requested"
@@ -818,7 +818,7 @@ app.post('/awaiting-documents-tenants', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Re:" + initializedDataSource  +" Eco4 Grant enquiry- Further Info Requested"
@@ -876,7 +876,7 @@ app.post('/eco-hot-leads', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     const subjectComplete = "Re:" + initializedDataSource  +" Eco4 Grant enquiry- Further Info Requested";
@@ -932,7 +932,7 @@ app.post('/flex-needs-checking', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     
@@ -990,7 +990,7 @@ app.post('/rejected-fb-leads', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
     
