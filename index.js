@@ -20,7 +20,7 @@ app.post('/send-email', async (req, res) => {
       secure: true, // upgrade later with STARTTLS
       auth: {
         user: 'info@ecogrants.online', // Your email address
-        pass: '12345DarRob2@16' // Your email password (consider using environment variables)
+        pass: '12345DarRob2@20' // Your email password (consider using environment variables)
       }
     });
 
